@@ -1,13 +1,13 @@
 /*This is a comment */
 body {
-    background-image: url(images/cork-board.png);
+    background-image: url(atlas-of-atlas/images/cork-board.png);
     color: darkslateblue;
     font-family: 'orbitron', sans-serif;
     font-size: 14px;
     text-align: center;
 }
 .banner {
-    background-image: url(images/banner.png);
+    background-image: url(atlas-of-atlas/images/banner.png);
     background-size: cover;
     Background-position: center;
     padding: 300px;
