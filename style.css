@@ -1,53 +1,104 @@
 /*This is a comment */
 body {
-    background-color: rgb(0, 247, 255);
+    background-image: url(images/cork-board.png);
     color: darkslateblue;
-    font-family: 'noto serif', georgia, serif;
+    font-family: 'orbitron', sans-serif;
     font-size: 14px;
     text-align: center;
-    
+}
+.banner {
+    background-image: url(images/banner.png);
+    background-size: cover;
+    Background-position: center;
+    padding: 300px;
+    margin-bottom: 20px;
+
 }
 h1 {
     color: rgb(0, 0, 0);
-    font-family: 'mansalva', cursive;
-    font-size: 50px; 
-    font-weight: lighter;
-    font-style: italic;
+    font-family: 'orbitron', cursive;
+    font-size: 100px;
+    font-weight: bolder;
     line-height: 1;
     text-decoration: underline;
-
+    margin-top: -150px;    
 }
 h2 {
     color: rgb(0, 0, 0);
-    font-family: 'arial', serif;
+    font-family: 'orbitron', serif;
     font-size: 25px;
-    font-weight: lighter;
     line-height: 1;
-    text-decoration: underline;
+    margin-top: -40px;
 }
-
-h3 {
+.abouttheauthor {
+    font-family: 'arial', georgia, serif;
+    font-size: 20px;
+    color: rgb(8, 6, 24);
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid darkslateblue;
+    background-color: rgb(245, 138, 197);
+    
+}
+.abouttheauthor h3 {
     color: rgb(0, 0, 0);
-    font-family: 'mansalva', cursive;
     font-size: 30px;
     font-weight: 900;
-    font-style: normal;
     text-align: center;
-    text-decoration: underline;
-        
 }
-ul,li {
+
+.favouriteplaces {
+    font-family: 'arial', georgia, serif;
+    font-size: 16px;
+    color: rgb(12, 7, 46);
     text-align: left;
-    font-family: 'noto serif', georgia, serif;
-    font-size: 14px;
-    color: darkslateblue;
+    max-width: 600px;
+    margin-bottom: 90px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid darkslateblue;
+    background-color: rgb(0, 230, 88);
 }
-Footer p {
-    font-family: 'noto serif', georgia, serif;
+
+.favouriteplaces h4 {
+    font-family: 'orbitron', georgia, serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 900;
+    text-align: left;  
+}
+.dayinthelife {
+    font-family: 'arial', georgia, serif;
+    font-size: 16px;
+    color: rgb(12, 7, 46);
+    text-align: left;
+    max-width: 600px;
+    margin-bottom: 90px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid darkslateblue;
+    background-color: rgb(221, 240, 46);
+    display: grid;
+}
+.dayinthelife h4 {
+    font-family: 'orbitron', georgia, serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 900;
+    text-align: left;  
+}
+
+.footer {
+    font-family: 'orbitron', georgia, serif;
     font-size: 12px;
-    color: rgb(34, 25, 94);
-    text-align: right;
+    color: rgb(241, 171, 218);
+    text-align: center;
     font-style: bold;
+    margin: 20px;
+    padding: 1 px;
+    border: 2px solid rgb(250, 200, 235);
+    background-color: rgb(59, 46, 240);
+   
 }
 a {
     color: rgb(255, 0, 149);
@@ -62,7 +113,7 @@ a:active {
     text-decoration: none;
 }
 a:visited {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 a:focus {
